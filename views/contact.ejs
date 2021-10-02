@@ -1,75 +1,76 @@
 <% include partials/header.ejs %>
 <% include partials/footer.ejs %>
 
-
-
 <!DOCTYPE html>
 <html>
+  <!-- head content -->
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><%= title %></title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <main>
-
     <h1>
       Contact Me Here!
     </h1>
-    
     <br/>
+    <!-- personal contact info -->
     <fieldset>
       <h3>
         Here is where you can contact me directly:
         mabdul53@my.centennialcollege.ca
         linkedin.com/in/mehreenar
-
       </h3>
     </fieldset>
-    <br/>
-    
+     <br/>
+      <!-- fieldset for viewer contact info -->
       <fieldset>
         <form name="survey" id="survey" action="mailto:mabdul53@my.centennialcollege.ca" method="post">
           <table cellpadding="15" cellspacing="5" width="65%">
-      
             <!-- first Row -->
-
-      <tr>
-        <td>
-        <label><b>First Name: </b></label><br/>
-        <input type="text" name="firstname" id="firstname" size="40"> </input>
-        </td>
-      </tr>
-      <tr>
-        <td>
-        <label><b>Last Name: </b></label><br/>
-        <input type="text" name="lastname" id="lastname" size="40"> </input>
-        </td>
-      </tr>
-      <tr>
-        <td>
-        <label><b>Contact Number: </b></label><br/>
-        <input type="text" name="contactnumber" id="contactnumber" size="40"> </input>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <label><b>Email Address: </b></label><br/>
-          <input type="text" name="email" id="email" size="40"> </input>
-        </td>
-      </tr>
-
-      <tr>
-        <td>
-        <label><b> Additional Comments To Be Addressed: </b></label><br/>
-        <textarea id="opinion" name="opinion" rows="5" cols="40"> </textarea>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <input type="submit" value="Click here to email me!"/> 
-        </td>
-      </tr>
-
-    </fieldset>
-      
-      </main>
+            <tr>
+              <td>
+              <label><b>First Name: </b></label><br/>
+              <input type="text" name="firstname" id="firstname" size="40"> </input>
+              </td>
+            </tr>
+            <!-- second Row -->
+            <tr>
+              <td>
+              <label><b>Last Name: </b></label><br/>
+              <input type="text" name="lastname" id="lastname" size="40"> </input>
+              </td>
+            </tr>
+            <!-- third Row -->
+            <tr>
+              <td>
+              <label><b>Contact Number: </b></label><br/>
+              <input type="text" name="contactnumber" id="contactnumber" size="40"> </input>
+              </td>
+            </tr>
+            <!-- fourth Row -->
+            <tr>
+              <td>
+                <label><b>Email Address: </b></label><br/>
+                <input type="text" name="email" id="email" size="40"> </input>
+              </td>
+            </tr>
+            <!-- fifth Row -->
+            <tr>
+              <td>
+              <label><b> Additional Comments To Be Addressed: </b></label><br/>
+              <textarea id="opinion" name="opinion" rows="5" cols="40"> </textarea>
+              </td>
+            </tr>
+            <!-- sixth Row -->
+            <tr>
+              <td>
+                <input type="submit" value="Click here to email me!"/> 
+              </td>
+            </tr>
+          </table>
+        </form>
+      </fieldset>
+  </main>
 </html>
