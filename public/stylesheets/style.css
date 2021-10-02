@@ -50,7 +50,18 @@ padding: 2px;}
 margin: 0 0 8px 10px;
 }
 
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
 
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 
 nav a { text-decoration: none; }
