@@ -1,6 +1,6 @@
 /* background styles */
 body {
-  background-image: url('/images/bgimage.jpg');
+  background-image: url('/assets/images/bgimage.jpg');
   opacity: 0.9;
   background-repeat: no-repeat;
   background-attachment: fixed;
